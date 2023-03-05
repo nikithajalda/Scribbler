@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href ="styles/index.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo-header">
+              <p class="logo">ScriBBler</p>
+              <p class="subheading">Explore, Imagine, Creat</p>
+            </div>
+            <div class="align-right">
+              <input class="header-button" type="button" onclick="singUpModel()" value="Sing Up">
+              <input class="header-button" type="button" onclick="singInModel()" value="Sing In">
+            </div>
+        </div>
+       <div class="buttons-post">
+          <input type="button" class="post-button"  onclick="displayAllPosts()"   value="All Posts" >
+          <input type="button" class="post-button" onclick =" createPost()"    value="Create Posts">
+       </div>
+  </div>   
+       <div id="singUpModel"  class ="model" >
+          <div class="model-box">
+              <div class="model-container">
+                  <h1 class="heading">Get Started</h1>
+                  <span class="close-btn"  aria-label="Close" onclick="closeModel()" ><i class="fa fa-times"></i></span>
+              </div>
+               <hr class="model-horizontal">
+               <form class="model-form">
+                <lable for= "name" class="model-lable">Name</lable>
+                <input type="text"  class ="model-textarea"placeholder="Enter your name" name="name" required>
+                <lable for="username"  class="model-lable">Username</lable>
+                <input type="text"  class="model-textarea"  placeholder="Enter your username" name="Username" required>
+                <lable for="password" class="model-lable">Password</lable>
+                <input type="password" class="model-textarea" placeholder="Enter your password" name="Password" required>
+                <lable for ="Conform password"class="model-lable">Conform Password</lable>
+                <input type="password" class="model-textarea"  placeholder="Re-enter your password" name="password" required>
+                <button type="submit" class="model-submitbutton" >Sing UP</button>
+                </form>
+           </div>
+       </div>
+
+
+    <div id = "singInModel" class="model" >
+        <div class="model-box">
+            <div class="model-container">
+                <h1 class="heading">Welcome Back!</h1>
+                <span class="close-btn" arial-label="close" onclick="closeModel()"><i class="fa fa-times"></i></span>
+            </div>
+            <hr class="model-horizontal">
+            <form class="model-form">
+                <lable for="username" class="model-lable" >Username</lable>
+                <input type="text" class="model-textarea" placeholder="Enter your username" name="Username" required>
+                <lable for="password" class="model-lable" >Password</lable>
+                <input type="text" class="model-textarea" placeholder="Enter your password" name="password" required>
+                <button type="submit" class="model-submitbutton" >Sing In</button>
+            </form>
+            <div class="model-message">Not a member?
+                <span class="sing-up-link" onclick="displaySingUpModel()">Sing Up</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="postModel" class="model">
+        <div class="model-box post-model">
+            <div class="model-container">
+                <h1 class="heading">Pen Your Post</h1>
+                <span class="close-btn" aria-label="close" onclick="closePost()"><i class="fa fa-times"></i></span>
+            </div>
+            <hr class="model-horizontal">
+            <form class="model-form">
+                <lable  for="title" class="model-lable">Title</lable>
+                <input type="text" class="model-textarea" placeholder="Enter title of your post" name="post Title" required>
+                <lable for="content" class="model-lable" >Content</lable>
+                <textarea type="text" class="model-textarea post-create" placeholder="Enter the contents of your post" name="post Content"required></textarea>
+                <button type="submit" class="model-button">Create</button>
+            </form>
+        </div>
+    </div>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <script src="scripts/index.js"></script>
+    <script src="scripts/common.js"></script>
+</body>
+
+</html>

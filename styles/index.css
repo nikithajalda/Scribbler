@@ -1,0 +1,53 @@
+body{
+    background-image: url('../images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.header-container{
+    height: 100%;
+    width: 100%;
+}
+.buttons-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.post-button{
+    width: 120px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: #FEDD00;
+    cursor: pointer;
+    margin:0 10px;
+}
+.post-button:hover{
+    color: white;
+    background-color: blue;
+}
+.post-create{
+    height: 40vh;
+    font-family: 'Arial';
+}
+.model-button{
+    width: 120px;
+    align-self: center;
+}
+
+.post-body{
+    position: relative;
+    text-align: left;
+
+}
+.model-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
