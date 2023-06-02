@@ -38,8 +38,7 @@ html,body{
     font-size:15px ;
     background-color: blue;
     color:white;
-    margin: 0px 10px 0px 0px;
-    border:none;
+    margin: 10px 10px 0px 0px;
     cursor:pointer;
 }
 .model{
@@ -113,5 +112,9 @@ html,body{
 .sing-up-link{
     color: blue;
     cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
 }
 

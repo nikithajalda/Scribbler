@@ -79,7 +79,7 @@ html,body{
     color: grey;
     padding: 10px 0;
 }
-.deletepostsmodel{
+.delete-postsmodel{
     display: none;
     position: absolute;
     top: 0;
@@ -116,6 +116,7 @@ html,body{
     border: none;
     color: white;
     background-color: green;
+    cursor: pointer;
 }
 .deletepostno{
     width: 20%;

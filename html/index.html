@@ -4,8 +4,8 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href ="styles/index.css">
-    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href ="../styles/index.css">
+    <link rel="stylesheet" href="../styles/common.css">
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
 </head>
@@ -18,8 +18,8 @@
               <p class="subheading">Explore, Imagine, Creat</p>
             </div>
             <div class="align-right">
-              <input class="header-button" type="button" onclick="singUpModel()" value="Sing Up">
-              <input class="header-button" type="button" onclick="singInModel()" value="Sing In">
+              <input class="header-button" type="button" onclick="singUpModel()" value="Sign Up">
+              <input class="header-button" type="button" onclick="singInModel()" value="Sign In">
             </div>
         </div>
        <div class="buttons-post">
@@ -43,7 +43,7 @@
                 <input type="password" class="model-textarea" placeholder="Enter your password" name="Password" required>
                 <lable for ="Conform password"class="model-lable">Conform Password</lable>
                 <input type="password" class="model-textarea"  placeholder="Re-enter your password" name="password" required>
-                <button type="submit" class="model-submitbutton" >Sing UP</button>
+                <button type="submit" class="model-submitbutton" >Sign UP</button>
                 </form>
            </div>
        </div>
@@ -61,16 +61,16 @@
                 <input type="text" class="model-textarea" placeholder="Enter your username" name="Username" required>
                 <lable for="password" class="model-lable" >Password</lable>
                 <input type="text" class="model-textarea" placeholder="Enter your password" name="password" required>
-                <button type="submit" class="model-submitbutton" >Sing In</button>
+                <button type="submit" class="model-submitbutton" >Sign In</button>
             </form>
             <div class="model-message">Not a member?
-                <span class="sing-up-link" onclick="displaySingUpModel()">Sing Up</span>
+                <span class="sing-up-link" onclick="displaySingUpModel()">Sign Up</span>
             </div>
         </div>
     </div>
 
     <div id="postModel" class="model">
-        <div class="model-box post-model">
+        <div class="model-boxpost-model">
             <div class="model-container">
                 <h1 class="heading">Pen Your Post</h1>
                 <span class="close-btn" aria-label="close" onclick="closePost()"><i class="fa fa-times"></i></span>
@@ -86,8 +86,8 @@
         </div>
     </div>
     <!-- TODO: Include all your code for the header and home page here -->
-    <script src="scripts/index.js"></script>
-    <script src="scripts/common.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/common.js"></script>
 </body>
 
 </html>

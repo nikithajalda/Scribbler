@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-image: url('../images/background.jpg');
     height: 100%;
@@ -22,7 +27,7 @@ body{
     padding: 10px;
     font-size: 15px;
     color: black;
-    background-color: #FEDD00;
+    background-color:#CFB53B;
     cursor: pointer;
     margin:0 10px;
 }
@@ -37,17 +42,30 @@ body{
 .model-button{
     width: 120px;
     align-self: center;
+    padding: 10px;
+    background-color: rgb(61, 126, 61);
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .post-body{
     position: relative;
     text-align: left;
-
+}
+.model-boxpost-model{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 80%;
+    font-family: sans-serif;
+    padding: 20px;
 }
 .model-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
 }
-
