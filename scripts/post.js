@@ -8,7 +8,7 @@ function editToSave(){
     } else{
 
         document.getElementById('postPara').setAttribute("contentEditable","true");
-        document.getElementById('postTitle').setAttribute("contentEditsble","true");
+        document.getElementById('postTitle').setAttribute("contentEditable","true");
         document.getElementById('postPara').style.border = " solid pink";
         document.getElementById('postTitle').style.border = " solid pink";
         document.getElementById('editPostbtn').innerHTML = "Save<i class = 'fa fa-save'></i>";

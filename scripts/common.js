@@ -1,14 +1,14 @@
-function singUpModel(){
-    document.getElementById('singUpModel').style.display = 'block';
+function signUpModel(){
+    document.getElementById('signUpModel').style.display = 'block';
 }
-function singInModel(){
-    document.getElementById('singInModel').style.display = 'block';
+function signInModel(){
+    document.getElementById('signInModel').style.display = 'block';
 }
 function closeModel(){
-    document.getElementById('singUpModel').style.display = 'none';
-    document.getElementById('singInModel').style.display = 'none';
+    document.getElementById('signUpModel').style.display = 'none';
+    document.getElementById('signInModel').style.display = 'none';
 }
-function displaySingUpModel(){
-    document.getElementById('singInModel').style.display ='none';
-    document.getElementById('singUpModel').style.display = 'block';
+function displaySignUpModel(){
+    document.getElementById('signInModel').style.display ='none';
+    document.getElementById('signUpModel').style.display = 'block';
 }
